@@ -49,8 +49,8 @@ paraphrases with little word overlap. Results from one run:
 | hybrid weighted a=0.7 | 0.90 | 1.00 | 0.95 |
 
 On a corpus this small, dense alone is already strong; weighted fusion leaning
-on dense gives the best result, and plain RRF is pulled down when BM25 ranks
-an off-topic doc highly. Hybrid search matters more as the corpus grows and
+on dense gives the best result. RRF weights both retrievers equally, so it
+scores a bit lower here, where BM25 is the weaker of the two. Hybrid search matters more as the corpus grows and
 more queries hinge on exact identifiers.
 
 ## Ideas to practise next
