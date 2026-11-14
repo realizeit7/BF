@@ -20,6 +20,16 @@ can actually trade*, after spread and fees — not by whether the story is true.
    Fund (small real money). Promotion to Fund needs: positive after costs in
    history, positive in a held-out period, and >= 30 journal entries that agree.
 
+## Using derivatives (options, futures)
+
+Options and futures are **signals by default**: their prices are the professional
+market's estimate of probabilities and expected moves, and we use them to judge
+whether something else (a Kalshi contract, a stock after an event) is cheap or
+expensive. Trading them ourselves is the exception: only for an event-driven
+situation most option traders don't model (tender offer, deal deadline,
+scheduled release), with a defined maximum loss, and only after it clears the
+same evidence bar as everything else. Rare or never is acceptable.
+
 ## Register (first pass, 2026-11-14)
 
 | Idea | Possible edge | Cheap test result | Verdict |

@@ -1,3 +1,4 @@
 date,idea,instrument,paper_action,entry_price,my_estimate,exit_rule,outcome,pnl_per_$
 2026-11-14,cross-venue gap,"Kalshi KXFEDDECISION-26DEC-H26 NO @0.90 + Polymarket 'Dec 50+ bps increase' YES @0.083",paper,0.983 combined,pays 1.00 either way if rules match; ~0.6c Kalshi fee,hold to Dec FOMC,,
 2026-11-14,odd-lot tender,"MYPS, 99 shares, Dutch auction $4.30-$5.50, expires 2026-12-10",paper buy @4.93 and tender at $4.90,4.93,no floor above market -> no locked-in gain; logging to learn where these clear,tender; sell remainder day after expiry,,
+2026-11-14,Kalshi vs fed funds futures,"Kalshi KXFEDDECISION-26DEC vs ZQX26/ZQZ26 futures",signal only (no trade),Kalshi implies +26.9bp,futures imply +27.8bp (Dec avg 4.075% vs Nov 3.878%; decision effective Dec 10),re-check weekly until Dec 9 decision,,
