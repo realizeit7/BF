@@ -44,7 +44,9 @@ same evidence bar as everything else. Rare or never is acceptable.
 | Stocks: buy earnings-day drops | same | No bounce; -8..-12% earnings drops lose another 1.0% over 20 days (t=-2.5) | **Reject** |
 | Stocks: post-earnings drift in large caps | Slow reaction to news | Top-minus-bottom reaction quintile +0.6% over 20 days, t=0.9 | **Reject** in large caps (small caps untested) |
 | Odd-lot tender offers | Holders of <100 shares skip proration; too small for funds | 13 listed offers in 12 months; only 1 (Yext) traded below the price floor after announcement (+2.5% minimum in ~4 weeks). Capped at 99 shares | **Track** – real but worth tens of dollars each |
-| Untested backlog | | | merger spreads, closed-end fund discounts, index additions, spin-offs, Kalshi S&P ranges vs option prices |
+| Kalshi S&P 500 daily contracts vs options-implied volatility (VIX1D) | Kalshi traders might misprice the end-of-day distribution | 5,080 contracts, 433 days, judged on 2026 only. Kalshi's own prices forecast better than the options-based model (log-loss 0.272 vs 0.280). Trading where the model disagrees lost money: buying YES -3.6c/contract (t=-2.9), NO -0.7c. The model ignores skew because strike-level option quotes are not freely available | **Reject** – this market already prices in the options information |
+| Kalshi Fed decision vs fed funds futures | Venues are segmented | Dec-2026: Kalshi implies +26.9bp, futures +27.8bp. They agree | **Track** (signal only) |
+| Untested backlog | | | closed-end fund discounts, merger spreads, index additions, spin-offs, Kalshi CPI vs inflation swaps/TIPS |
 
 ## Files
 
